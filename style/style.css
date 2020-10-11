@@ -1,12 +1,17 @@
 body{
 }
 
+.container-fluid {
+  background: url(/assets/backgrounds/h_img.jpg);
+  height: 500px !important;
+}
 
 
 
 #logo{
     
     text-align: center;
+    padding-bottom: 100px;
     
 }
 
@@ -15,8 +20,27 @@ body{
 color: white;
 font-family: sans-serif;
 text-align: center;
-padding-bottom: 150px;
+padding-bottom: 100px;
 } 
+
+#mouse-click{
+
+  text-align: center;
+
+}
+
+#about-us-container{
+
+  text-align: center;
+  padding: 2%;
+}
+
+#about-us-container h2{
+
+margin-top: -20px;
+
+
+}
 
 
 #about us {
@@ -26,12 +50,6 @@ padding-bottom: 150px;
 #Welcome-title {
     text-align: center;
     color:white;
-}
-
-
-.container-fluid {
-    background: url(/assets/backgrounds/h_img.jpg);
-    height: 500px !important;
 }
 
 
