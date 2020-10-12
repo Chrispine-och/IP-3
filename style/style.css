@@ -159,5 +159,16 @@ font-family: 'Satisfy', cursive;
   color: white;
   font-weight: bold;
 }
+
+#button-to-submit{
+margin-left: 50%;
+color: black;
+}
  
+#footer-container{
+  margin-top: 3%;
+  text-align: center;
+}
+#delani-footer{
+  margin-top: 2%;
 }
