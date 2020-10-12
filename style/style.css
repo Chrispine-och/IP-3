@@ -58,6 +58,29 @@ text-align: center;
 
 }
 
+
+.what{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: 'Satisfy', cursive;
+}
+
+.Do{
+  width: 400px;
+}
+
+.what p{
+  display: none;
+}
+
+
+#what_head{
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+}
+
+
 #portfolio-containe{
 
 display: flex;
