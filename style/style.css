@@ -45,16 +45,16 @@ margin-top: -20px;
 }
 
 #services-container{
-background-image: url(/assets/backgrounds/s_image.jpg);
-background-repeat: no-repeat;
-background-position: inherit;
+background-image: url(/assets/backgrounds/s_image.jpg) !important;
+background-repeat: no-repeat !important;
 color: white;
-left: 0;
-right: 0;
-top: 0;
-bottom : 0;
-padding: 100px; 
 text-align: center;
+font-weight: bolder;
+
+line-height: 50px;
+padding-left: 1px;
+padding-top: 1px;
+padding-bottom: 1px;
 
 }
 
@@ -118,3 +118,46 @@ flex-wrap: wrap;
 font-family: 'Satisfy', cursive;
 }
 
+#contact-us-container{
+  background-image: url(/assets/backgrounds/c_image.jpg);
+  height: 500px;
+  margin-top: 20px;
+
+}
+
+
+#user-name{
+  color: white;
+  background: none;
+  margin-left:40%;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+}
+
+#user-email {
+  margin-right: 20%;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  background: none;
+  color: white;
+}
+
+#user-comments{
+  width: 825px;
+  margin-top: 5px;
+  margin-left: 19.6%;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  background: none;
+  color: white;
+}
+
+::placeholder  {
+  color: white;
+  font-weight: bold;
+}
+ 
+}
