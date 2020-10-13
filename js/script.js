@@ -12,7 +12,7 @@ if (x == "") {
     ga('set', 'hostname', '.list-manage.com');
     ga('send', 'pageview');
 
-    function(query, dom, domGeom, domClass, domStyle, domConstruct, focusUtil, parser){
+    
 
         
         var handle = focusUtil.watch("curNode", function(name, oldValue, newValue){
@@ -31,7 +31,7 @@ if (x == "") {
             focusUtil.focus(firstInput);
         });
 
-        /
+        
         if (domClass.contains(query('html')[0], "ie-lte7")){
 
             query('img').forEach(function(node){
@@ -47,7 +47,7 @@ if (x == "") {
        
         dojo.query(".radio input, .checkbox input").removeAttr("data-dojo-type");
 
-  s
+  
         parser.parse();
 
         query('form').on("submit",function(e){
@@ -69,4 +69,4 @@ if (x == "") {
                 height: "16px"
             });
         });
-    });
+    
