@@ -3,7 +3,7 @@
 }
 
 .container-fluid {
-  background: url(/assets/backgrounds/h_img.jpg);
+  background: url(../assets/backgrounds/h_img.jpg);
   height: 500px !important;
   background-size: cover;
   
@@ -47,7 +47,7 @@ margin-top: -20px;
 }
 
 #services-container{
-background-image: url(/assets/backgrounds/s_image.jpg) !important;
+background-image: url(../assets/backgrounds/s_image.jpg) !important;
 background-repeat: no-repeat !important;
 color: white;
 text-align: center;
@@ -120,8 +120,9 @@ flex-wrap: wrap;
 font-family: 'Satisfy', cursive;
 }
 
+
 #contact-us-container{
-  background-image: url(/assets/backgrounds/c_image.jpg);
+  background-image: url(../assets/backgrounds/c_image.jpg);
   height: 500px;
   margin-top: 20px;
 
